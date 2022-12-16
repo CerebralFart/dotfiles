@@ -1,0 +1,9 @@
+[user]
+	email = s.mol@student.utwente.nl
+	name = Sven Mol
+[core]
+	excludesFile = ~/.gitignore
+[init]
+	defaultBranch = main
+[pull]
+	ff = only
