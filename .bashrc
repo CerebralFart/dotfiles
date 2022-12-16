@@ -115,3 +115,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+alias composer="docker run -it -v $PWD:/app -v ~/.composer:/tmp composer"
