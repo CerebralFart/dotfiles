@@ -2,6 +2,7 @@
 	email = s.mol@student.utwente.nl
 	name = Sven Mol
 [core]
+	editor = subl --wait
 	excludesFile = ~/.gitignore
 [init]
 	defaultBranch = main
