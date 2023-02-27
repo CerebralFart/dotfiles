@@ -116,5 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias composer='docker run -it -v $PWD:/app -v ~/.composer:/tmp composer'
+alias composer='docker run --rm -it -v "$PWD:/app" -v ~/.composer:/tmp composer'
 alias npm='docker run -it -v $PWD:/app/ -w /app/ node npm'
+alias php='docker run --rm -it -v "$PWD:/app" -w"/app" php php'
